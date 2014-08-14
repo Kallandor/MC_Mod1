@@ -1,6 +1,8 @@
 package com.kallandor.mc_mod1;
 
+import com.kallandor.mc_mod1.proxy.IProxy;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -8,13 +10,16 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 /**
  * Created by dlwilson on 8/13/2014.
  */
-@Mod(modid="mc_mod1", name="MC Mod1", version="1.7.10-1.0")
+@Mod(modid="Reference.MOD_ID", name="Reference.MOD_NAME", version="Reference.VERSION")
 
 
 public class mc_mod1 {
 
-    @Mod.Instance("mc_mod1")
-    public static MC_Mod instance;
+    @Mod.Instance("Reference.MOD_ID")
+    public static mc_mod1 instance;
+
+    @SidedProxy(clientSide = "com.kallandor.mc_mod1.proxy.ClientProxy", serverSide = "com.kallandor.mc_mod1.proxy.ServerProxy")
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
