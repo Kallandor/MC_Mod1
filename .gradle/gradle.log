@@ -8,6 +8,7 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  MCP Data version : unknown
 ****************************
 <<<<<<< HEAD
+<<<<<<< HEAD
 :extractUserDev UP-TO-DATE
 :genSrgs SKIPPED
 :extractNatives UP-TO-DATE
@@ -71,3 +72,13 @@ BUILD SUCCESSFUL
 
 Total time: 17.916 secs
 >>>>>>> parent of 275b8ee... changes to files
+=======
+:ideaModule
+:ideaProject
+:ideaWorkspace
+:idea
+
+BUILD SUCCESSFUL
+
+Total time: 17.742 secs
+>>>>>>> parent of 5092667... fixed some issues

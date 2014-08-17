@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [19:59:17] [main/INFO]: No arguments specified, assuming client.
 [19:59:17] [main/INFO]: Extra: []
 [19:59:17] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/dlwilson/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --username, ForgeDevName]
@@ -2007,3 +2008,16 @@ Caused by: java.lang.IllegalArgumentException
 [19:59:27] [Client thread/INFO]: Created: 256x256 textures/items-atlas
 [19:59:28] [Sound Library Loader/INFO]: Sound engine started
 [20:00:41] [Client thread/INFO]: Stopping!
+=======
+[16:57:51] [main/INFO]: Setting user: ForgeDevName
+[16:57:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:57:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Minecraft Mod 1
+[16:57:58] [Sound Library Loader/INFO]: Sound engine started
+[16:57:58] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:57:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:57:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Minecraft Mod 1
+[16:57:58] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:57:58] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:57:59] [Sound Library Loader/INFO]: Sound engine started
+[16:58:20] [Client thread/INFO]: Stopping!
+>>>>>>> parent of 5092667... fixed some issues
