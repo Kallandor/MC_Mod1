@@ -16,13 +16,9 @@ import java.util.List;
 public class ModGuiConfig extends GuiConfig
 {
 
-    public ModGuiConfig(GuiScreen guiScreen)
-    {
-        super(guiScreen,
+    public ModGuiConfig(GuiScreen parent) {
+        super(parent,
                 new ConfigElement(ConfigurationHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
-                Reference.MOD_ID,
-                false,
-                false,
-                GuiConfig.getAbridgedConfigPath(ConfigurationHandler.configuration.toString()));
+                Reference.MOD_ID, "Test Mod", false, false, GuiConfig.getAbridgedConfigPath(ConfigurationHandler.configuration.toString()));
     }
 }

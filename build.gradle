@@ -22,7 +22,7 @@ group= "com.kallandor.mc_mod1" // http://maven.apache.org/guides/mini/guide-nami
 archivesBaseName = "mc_mod1"
 
 minecraft {
-    version = "1.7.10-10.13.0.1180"
+    version = "1.7.10-10.13.0.1205"
     assetDir = "eclipse/assets"
 }
 

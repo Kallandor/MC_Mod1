@@ -136,6 +136,7 @@
 [16:57:49] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [16:57:49] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [16:57:49] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+<<<<<<< HEAD
 [18:18:43] [main/INFO] [GradleStart]: No arguments specified, assuming client.
 [18:18:43] [main/INFO] [GradleStart]: Extra: []
 [18:21:25] [main/INFO] [GradleStart]: No arguments specified, assuming client.
@@ -258,9 +259,25 @@
 [16:13:51] [main/INFO] [GradleStart]: Extra: []
 [16:15:35] [main/INFO] [GradleStart]: No arguments specified, assuming client.
 [16:15:35] [main/INFO] [GradleStart]: Extra: []
+<<<<<<< HEAD
 [16:24:27] [main/INFO] [GradleStart]: No arguments specified, assuming client.
 [16:24:27] [main/INFO] [GradleStart]: Extra: []
 [16:36:55] [main/INFO] [GradleStart]: No arguments specified, assuming client.
 [16:36:55] [main/INFO] [GradleStart]: Extra: []
+<<<<<<< HEAD
 [20:30:48] [main/INFO] [GradleStart]: No arguments specified, assuming client.
 [20:30:48] [main/INFO] [GradleStart]: Extra: []
+=======
+[15:36:00] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[15:36:00] [main/INFO] [GradleStart]: Extra: []
+[15:45:12] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[15:45:12] [main/INFO] [GradleStart]: Extra: []
+[16:32:11] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[16:32:11] [main/INFO] [GradleStart]: Extra: []
+[16:35:27] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[16:35:27] [main/INFO] [GradleStart]: Extra: []
+=======
+>>>>>>> parent of 275b8ee... changes to files
+=======
+>>>>>>> parent of 5092667... fixed some issues
+>>>>>>> origin/master
