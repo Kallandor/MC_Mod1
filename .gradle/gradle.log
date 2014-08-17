@@ -7,6 +7,7 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
  R4wk, ZeuX, IngisKahn      
  MCP Data version : unknown
 ****************************
+<<<<<<< HEAD
 :extractUserDev UP-TO-DATE
 :genSrgs SKIPPED
 :extractNatives UP-TO-DATE
@@ -45,3 +46,28 @@ Note: Recompile with -Xlint:unchecked for details.
 BUILD SUCCESSFUL
 
 Total time: 3 mins 6.183 secs
+=======
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndex
+:getAssets
+:makeStartwarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test
+:check
+
+BUILD SUCCESSFUL
+
+Total time: 17.916 secs
+>>>>>>> parent of 275b8ee... changes to files
