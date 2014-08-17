@@ -1,7 +1,6 @@
 package com.kallandor.mc_mod1;
 
 import com.kallandor.mc_mod1.Handler.ConfigurationHandler;
-import com.kallandor.mc_mod1.init.ModBlocks;
 import com.kallandor.mc_mod1.init.Moditems;
 import com.kallandor.mc_mod1.proxy.IProxy;
 import com.kallandor.mc_mod1.utility.LogHelper;
@@ -35,8 +34,7 @@ public class mc_mod1 {
 
         Moditems.init();
 
-        ModBlocks.init();
-    }
+     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
