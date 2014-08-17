@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mc_mod1",
+  "name": "Minecraft Mod 1",
+  "description": "First TEST mod to learn coding and building mods",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Kallandor"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
